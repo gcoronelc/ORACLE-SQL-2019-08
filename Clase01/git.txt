@@ -1,0 +1,12 @@
+
+
+git clone https://github.com/gcoronelc/ORACLE-SQL-2019-08.git
+
+
+git checkout .
+
+
+git pull
+
+
+
