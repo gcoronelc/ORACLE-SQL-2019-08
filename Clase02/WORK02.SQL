@@ -100,6 +100,32 @@ CASE
 END MONEDA
 FROM EUREKA.CUENTA C;
 
+-- Ejercicio 4
+/*
+De cada sucursal, se necesita el importe
+en ahorros en SOLES y DOLARES.
+El modelo del reporte es el siguiente:
+SUCURSAL    SOLES     DOLARES
+---------------------------------------
+001         4567       43567
+002         5346       76789
+. . .
+. . .
+---------------------------------------
+*/
+
+SELECT 
+    chr_sucucodigo SUCURSAL,
+    SUM(CASE WHEN CHR_MONECODIGO='01' THEN DEC_CUENSALDO ELSE 0 END) SOLES,
+    SUM(DECODE(CHR_MONECODIGO,'02',DEC_CUENSALDO,0)) DOLARES
+FROM EUREKA.CUENTA
+GROUP BY chr_sucucodigo;
+
+
+
+
+
+*/
 
 
 
