@@ -65,10 +65,40 @@ DEPARTAMENTO   SALARIO     COMISION     TOTAL
 102
 ...
 ---------------------------------------------------
-
 */
 
+-- DECODE
 
+SELECT 
+DECODE(10003, 
+        10000, 'IBM',
+        10001, 'Microsoft',
+        10002, 'Hewlett Packard',
+        'Gateway') result
+FROM DUAL;
+
+SELECT C.*, 
+DECODE(c.chr_monecodigo, '01', 'SOLES', '02', 'DOLARES', 'NO SE') MONEDA
+FROM EUREKA.CUENTA C;
+
+-- CASE
+
+SELECT C.*,
+CASE c.chr_monecodigo
+    WHEN '01' THEN 'SOLES'
+    WHEN '02' THEN 'DOLARES'
+    ELSE 'NO SE'
+END MONEDA
+FROM EUREKA.CUENTA C;
+
+
+SELECT C.*,
+CASE 
+    WHEN c.chr_monecodigo = '01' THEN 'SOLES'
+    WHEN c.chr_monecodigo = '02' THEN 'DOLARES'
+    ELSE 'NO SE'
+END MONEDA
+FROM EUREKA.CUENTA C;
 
 
 
