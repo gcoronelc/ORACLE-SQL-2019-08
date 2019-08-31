@@ -7,9 +7,9 @@ Presentar una caso
 - Modelar el caso (6 tablas mínimo)
 - Generar el script de creación del esquema
 - Script de carga de datos
-- Proponer 10 requerimientos de datos (consultas) simples con su respectiva solución.
-- Proponer 10 requerimientos de datos (consultas) complejas con su respectiva solución.
+- Proponer 10 requerimientos de información (consultas) simples con su respectiva solución.
+- Proponer 10 requerimientos de información (consultas) complejas con su respectiva solución.
   
-PD: Las consultas complejas deben ser multitablas, con subconsultas, grupos, etc.
+PD: Las consultas complejas deben ser multitablas, con subconsultas, grupos, with, etc.
 
 
