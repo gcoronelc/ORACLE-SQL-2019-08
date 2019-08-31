@@ -1,6 +1,8 @@
-CLASE 01
+﻿CLASE 01
 1.- Introducción a GIT
 2.- Repositorio del curso
 3.- Introducción a ORACLE
 4.- Creación de esquemas ejemplo
 5.- Consultas simples
+
+CLASE 01
