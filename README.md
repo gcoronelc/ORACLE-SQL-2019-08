@@ -13,6 +13,14 @@
 
 
 
+# DOCENTE
+
+- Docente: Eric Gustavo Coronel Castillo
+- Blog: www.desarrollasoftware.com
+- Canal Youtube: https://bit.ly/2BWvikz
+- Correo: gcoronelc@gmail.com
+
+
 # VIDEOS DEL CURSO
 
 - Curso 01: https://bit.ly/2Bx0S8a
@@ -20,12 +28,6 @@
 
 
 
-# DOCENTE
-
-- Docente: Eric Gustavo Coronel Castillo
-- Blog: www.desarrollasoftware.com
-- Canal Youtube: https://bit.ly/2BWvikz
-- Correo: gcoronelc@gmail.com
 
 
 # MATERIAL DEL CURSO
@@ -39,6 +41,24 @@
 - Consultas a una tabla: https://bit.ly/2VhAPL1
 - Group By y Having: https://bit.ly/2QVt92Q
 - Gestión de datos con vistas: https://bit.ly/2CECPGg
+
+
+# CURSOS VIRTUALES
+
+## JAVA ORIENTADO A OBJETOS
+
+- Avance del curso: https://gcoronelc.blogspot.com/2019/05/udemy-java-orientado-objetos.html
+
+[![JAVA ORIENTADO A OBJETOS](http://img.youtube.com/vi/EKlwF12-l9Y/0.jpg)](http://www.youtube.com/watch?v=EKlwF12-l9Y "JAVA ORIENTADO A OBJETOS")
+
+
+## PROGRAMACIÓN DE BASE DE DATOS ORACLE CON JAVA JDBC
+
+- Avance del curso: http://gcoronelc.blogspot.com/2019/06/udemy-java-jdbc-oracle.html
+
+[![JAVA JDBC CON BASE DE DATOS ORACLE](http://img.youtube.com/vi/MR53Xgeg28Y/0.jpg)](http://www.youtube.com/watch?v=MR53Xgeg28Y "JAVA JDBC CON BASE DE DATOS ORACLE")
+
+
 
 # LIBROS
 
