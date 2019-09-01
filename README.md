@@ -1,4 +1,4 @@
-![ORACLE SQL](https://raw.githubusercontent.com/gcoronelc/ORACLE-SQL-2019-08/master/img/ORACLE-SQL-2019-08.jpg)
+![ORACLE SQL](https://raw.githubusercontent.com/gcoronelc/ORACLE-SQL-2019-08/master/img/sql.png)
 
 
 # ORACLE SQL
@@ -27,9 +27,6 @@
 - Curso 02: https://bit.ly/2AYMiac
 
 
-
-
-
 # MATERIAL DEL CURSO
 
 - Instalación de Oracle 11g R2: https://bit.ly/2CDfSmP
@@ -41,6 +38,12 @@
 - Consultas a una tabla: https://bit.ly/2VhAPL1
 - Group By y Having: https://bit.ly/2QVt92Q
 - Gestión de datos con vistas: https://bit.ly/2CECPGg
+
+
+# LIBROS
+
+- Oracle 10g Adm.: http://gcoronelc.blogspot.pe/2018/03/oracle-database-1og-adm1.html
+- Oracle SQL y PLSQL: http://gcoronelc.blogspot.pe/2011/02/libros-de-oracle.html
 
 
 # CURSOS VIRTUALES
@@ -60,10 +63,6 @@
 
 
 
-# LIBROS
-
-- Oracle 10g Adm.: http://gcoronelc.blogspot.pe/2018/03/oracle-database-1og-adm1.html
-- Oracle SQL y PLSQL: http://gcoronelc.blogspot.pe/2011/02/libros-de-oracle.html
 
 # RECURSOS DEL CURSO
 
