@@ -138,6 +138,21 @@ from educa.curso c
 join v1 on c.cur_id = v1.cur_id
 left join v2 on c.cur_id = v2.cur_id;
  
+/*
+Ejercicio 02
+Se necesita el siguiente reporte del esquema EUREKA.
+
+NOMBRE       NOMBRE
+SUCURSAL     MONEDA      INGRESOS      SALIDAS     SALDO
+------------------------------------------------------------
+SUCURSAL 1   SOLES       ###           ###         ####
+SUCURSAL 1   DOLARES     ###           ###         ####
+SUCURSAL 2   SOLES       ###           ###         ####
+SUCURSAL 2   DOLARES     ###           ###         ####
+. . .
+. . .
+------------------------------------------------------------
+*/
 
 
 

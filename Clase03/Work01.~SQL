@@ -130,10 +130,13 @@ v2 as (
         from educa.pago
         group by cur_id
       )      
-select * 
+select 
+      c.cur_nombre, v1.matriculados, v1.comprometido,
+      nvl(v2.recaudado,0) recaudado,
+      v1.comprometido -  nvl(v2.recaudado,0) falta
 from educa.curso c
-join educa.matricula m
-on c.cur_id = m.cur_id
+join v1 on c.cur_id = v1.cur_id
+left join v2 on c.cur_id = v2.cur_id;
  
 
 
