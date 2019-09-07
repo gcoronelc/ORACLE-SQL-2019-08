@@ -5,4 +5,13 @@
 4.- Creación de esquemas ejemplo
 5.- Consultas simples
 
-CLASE 01
+CLASE 02
+1.- Trabajando con Nulos
+2.- Trabajando con Fechas
+3.- Funciones agregadas
+4.- Grupos
+5.- Combinaciones internas
+
+CLASE 03
+1.- Otras combinaciones
+2.-
