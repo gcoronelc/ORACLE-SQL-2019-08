@@ -14,4 +14,15 @@ CLASE 02
 
 CLASE 03
 1.- Otras combinaciones
-2.-
+2.- Subconsultas
+3.- With
+4.- Vistas
+
+
+
+
+Nota: Rule, choose  mejorar consultas
+
+
+
+

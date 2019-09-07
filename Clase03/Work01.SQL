@@ -155,5 +155,25 @@ SUCURSAL 2   DOLARES     ###           ###         ####
 */
 
 
+SELECT 
+	sucunombre, monenombre,
+	sum(CASE WHEN tipoaccion='INGRESO' THEN moviimporte ELSE 0 END) ingreso,
+	sum(CASE WHEN tipoaccion='SALIDA' THEN moviimporte ELSE 0 END) salida,
+	sum(moviimporte * CASE WHEN tipoaccion='INGRESO' THEN 1 ELSE -1 END) saldo
+FROM eureka.v_movimiento
+GROUP BY sucunombre, monenombre
+ORDER BY 1, 2;
 
 
+/*
+Ejercicio 3
+Desarrollar una vista para obtener los siguientes datos
+de los trabajadores.
+
+codigo  nombre     departamento    cargo   salario   comision   jefe
+------------------------------------------------------------------------------
+C001    Pedro       Aaaaaa         Bbbbb     1000       500     Manuel
+. . .
+. . .
+------------------------------------------------------------------------------
+*/
